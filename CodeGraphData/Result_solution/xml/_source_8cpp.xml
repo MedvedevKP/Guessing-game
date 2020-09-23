@@ -1,0 +1,785 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_source_8cpp" kind="file">
+    <compoundname>Source.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/yvals_core.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/istream</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/ostream</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/ios</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xlocnum</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/climits</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/limits.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cmath</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/yvals.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cstdlib</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/math.h</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/stdlib.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xtr1common</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cstdio</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/stdio.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/iterator</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/iosfwd</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cstring</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/string.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cwchar</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/wchar.h</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/corecrt.h</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/sys/types.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xstddef</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cstddef</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/stddef.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/initializer_list</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xutility</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/utility</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/type_traits</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/streambuf</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xiosbase</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/share.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/system_error</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/__msvc_system_error_abi.hpp</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cerrno</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/errno.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/stdexcept</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/exception</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/malloc.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/vcruntime_exception.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xstring</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xmemory</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cstdint</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/stdint.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/limits</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cfloat</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/float.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/new</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/vcruntime_new.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xatomic.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xcall_once.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xerrc.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/atomic</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xlocale</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/memory</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/typeinfo</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/vcruntime_typeinfo.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xfacet</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xlocinfo</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xlocinfo.h</includes>
+    <incdepgraph>
+      <node id="20">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/string.h</label>
+      </node>
+      <node id="6">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xlocnum</label>
+      </node>
+      <node id="3">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/istream</label>
+      </node>
+      <node id="19">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cstring</label>
+      </node>
+      <node id="43">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xstring</label>
+      </node>
+      <node id="55">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/atomic</label>
+      </node>
+      <node id="34">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/share.h</label>
+      </node>
+      <node id="45">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cstdint</label>
+      </node>
+      <node id="59">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/vcruntime_typeinfo.h</label>
+      </node>
+      <node id="50">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/new</label>
+      </node>
+      <node id="9">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cmath</label>
+      </node>
+      <node id="62">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xlocinfo.h</label>
+      </node>
+      <node id="38">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/errno.h</label>
+      </node>
+      <node id="28">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/initializer_list</label>
+      </node>
+      <node id="36">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/__msvc_system_error_abi.hpp</label>
+      </node>
+      <node id="24">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/sys/types.h</label>
+      </node>
+      <node id="46">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/stdint.h</label>
+      </node>
+      <node id="22">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/wchar.h</label>
+      </node>
+      <node id="17">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/iterator</label>
+      </node>
+      <node id="27">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/stddef.h</label>
+      </node>
+      <node id="2">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/yvals_core.h</label>
+      </node>
+      <node id="52">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xatomic.h</label>
+      </node>
+      <node id="5">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/ios</label>
+      </node>
+      <node id="12">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/math.h</label>
+      </node>
+      <node id="30">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/utility</label>
+      </node>
+      <node id="56">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xlocale</label>
+      </node>
+      <node id="49">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/float.h</label>
+      </node>
+      <node id="23">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/corecrt.h</label>
+      </node>
+      <node id="47">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/limits</label>
+      </node>
+      <node id="58">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/typeinfo</label>
+      </node>
+      <node id="39">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/stdexcept</label>
+      </node>
+      <node id="14">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xtr1common</label>
+      </node>
+      <node id="18">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/iosfwd</label>
+      </node>
+      <node id="41">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/malloc.h</label>
+      </node>
+      <node id="32">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/streambuf</label>
+      </node>
+      <node id="40">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/exception</label>
+      </node>
+      <node id="21">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cwchar</label>
+      </node>
+      <node id="53">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xcall_once.h</label>
+      </node>
+      <node id="26">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cstddef</label>
+      </node>
+      <node id="31">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/type_traits</label>
+      </node>
+      <node id="33">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xiosbase</label>
+      </node>
+      <node id="15">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cstdio</label>
+      </node>
+      <node id="57">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/memory</label>
+      </node>
+      <node id="51">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/vcruntime_new.h</label>
+      </node>
+      <node id="1">
+        <label>iostream</label>
+      </node>
+      <node id="60">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xfacet</label>
+      </node>
+      <node id="10">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/yvals.h</label>
+      </node>
+      <node id="48">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cfloat</label>
+      </node>
+      <node id="8">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/limits.h</label>
+      </node>
+      <node id="11">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cstdlib</label>
+      </node>
+      <node id="61">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xlocinfo</label>
+      </node>
+      <node id="29">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xutility</label>
+      </node>
+      <node id="0">
+        <label>C:/Users/User/source/repos/Guessing game/Guessing game/Source.cpp</label>
+        <link refid="Source.cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/system_error</label>
+      </node>
+      <node id="4">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/ostream</label>
+      </node>
+      <node id="25">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xstddef</label>
+      </node>
+      <node id="54">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xerrc.h</label>
+      </node>
+      <node id="13">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/stdlib.h</label>
+      </node>
+      <node id="44">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/xmemory</label>
+      </node>
+      <node id="7">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/climits</label>
+      </node>
+      <node id="37">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/cerrno</label>
+      </node>
+      <node id="16">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/stdio.h</label>
+      </node>
+      <node id="42">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include/vcruntime_exception.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structobject" prot="public">object</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_source_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/User/source/repos/Guessing game/Guessing game/Source.cpp" line="43" column="1" bodyfile="C:/Users/User/source/repos/Guessing game/Guessing game/Source.cpp" bodystart="43" bodyend="73"/>
+        <references refid="structobject_1a9eb0e13956c17aeaaca90adf04c532b9" compoundref="_source_8cpp" startline="12">object::COUNT_BITS</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>This<sp/>is<sp/>a<sp/>personal<sp/>academic<sp/>project.<sp/>Dear<sp/>PVS-Studio,<sp/>please<sp/>check<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>PVS-Studio<sp/>Static<sp/>Code<sp/>Analyzer<sp/>for<sp/>C,<sp/>C++<sp/>and<sp/>C#:<sp/>http://www.viva64.com</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*Игра угадайка /
+
+
+#include<sp/>&lt;iostream&gt;
+
+struct<sp/>object
+{
+<sp/>static<sp/>const<sp/>size_t<sp/>COUNT_BITS<sp/>=<sp/>4;
+<sp/><sp/><sp/><sp/>std::string<sp/>objName;
+<sp/><sp/><sp/>bool<sp/>sigature[COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>copy_sigatures(const<sp/>bool<sp/>*ptrSign)
+<sp/><sp/><sp/>{
+<sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(ptrSign<sp/>==<sp/>nullptr)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;
+
+<sp/><sp/><sp/><sp/><sp/>/*BUG:<sp/>ОПАСНОЕ МЕСТО:<sp/>не факт,<sp/>что размер ptrSigт будет<sp/>меньше COUNT_BITS
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(ptrSign+i)<sp/>!=<sp/>nullptr<sp/>возможно это решит проблему*/
+<sp/><sp/><sp/><sp/><sp/><sp/>for<sp/>(size_t<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>COUNT_BITS<sp/>&amp;&amp;<sp/>(ptrSign+i)<sp/>!=<sp/>nullptr;<sp/>i++)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(this-&gt;sigature<sp/>+<sp/>i)<sp/>=<sp/>*(ptrSign<sp/>+<sp/>i);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>true;
+<sp/><sp/><sp/>}
+
+<sp/>object(std::string<sp/>name,<sp/>bool*<sp/>ptrSign<sp/>=<sp/>nullptr):
+<sp/><sp/><sp/><sp/><sp/>objName(name)
+<sp/><sp/>{
+<sp/><sp/><sp/><sp/><sp/><sp/>copy_sigatures(ptrSign);
+
+<sp/><sp/><sp/><sp/>}
+
+<sp/><sp/><sp/>object(const<sp/>object&amp;<sp/>rObj)
+<sp/><sp/><sp/><sp/><sp/>:<sp/>objName(rObj.objName)
+<sp/><sp/><sp/><sp/>{
+<sp/><sp/><sp/><sp/><sp/><sp/>copy_sigatures(rObj.sigature);
+<sp/>}
+<sp/><sp/>
+};
+
+int<sp/>main()<sp/>{
+
+<sp/>//Инициализация списка объектов поиска
+<sp/><sp/>object<sp/>ArrayObject[]<sp/>=<sp/>
+<sp/><sp/><sp/><sp/>{
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Холодильник&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Микровалновая печь"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Пылесос"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Утюг"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Ноутбук"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Стационарный<sp/>компьютер"),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Сервер&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Суперкомпьютер"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смартфон"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Планшет"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Рация"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смарт<sp/>часы&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Амерметр&quot;),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Вакуумметр"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Осциограф"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Мультиметр"),
+<sp/><sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>signature_map[object::COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+<sp/><sp/><sp/><sp/>
+
+
+<sp/>
+<sp/><sp/><sp/>return<sp/>0;
+
+}*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="structobject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structobject" kindref="compound">object</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12" refid="structobject_1a9eb0e13956c17aeaaca90adf04c532b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structobject_1a9eb0e13956c17aeaaca90adf04c532b9" kindref="member">COUNT_BITS</ref><sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="13" refid="structobject_1ad355b4f9ce688d52c42ef2033297e20f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structobject_1ad355b4f9ce688d52c42ef2033297e20f" kindref="member">objName</ref>;</highlight></codeline>
+<codeline lineno="14" refid="structobject_1a5207b56ec43664ad2728666b46ca6272" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structobject_1a5207b56ec43664ad2728666b46ca6272" kindref="member">sigature</ref>[<ref refid="structobject_1a9eb0e13956c17aeaaca90adf04c532b9" kindref="member">COUNT_BITS</ref>]<sp/>=<sp/>{<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="structobject_1a4152b0ef53f4aa48124d39861a3c5429" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structobject_1a4152b0ef53f4aa48124d39861a3c5429" kindref="member">copy_sigatures</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*ptrSign)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ptrSign<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*BUG:<sp/>ОПАСНОЕ МЕСТО:<sp/>не факт,<sp/>что размер ptrSigт будет<sp/>меньше COUNT_BITS</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(ptrSign+i)<sp/>!=<sp/>nullptr<sp/>возможно это решит проблему*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="structobject_1a9eb0e13956c17aeaaca90adf04c532b9" kindref="member">COUNT_BITS</ref><sp/>&amp;&amp;<sp/>(ptrSign+i)<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;<sp/>i++)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(this-&gt;<ref refid="structobject_1a5207b56ec43664ad2728666b46ca6272" kindref="member">sigature</ref><sp/>+<sp/>i)<sp/>=<sp/>*(ptrSign<sp/>+<sp/>i);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="structobject_1a52004d382e7f959f3c80771d850ce232" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structobject_1a52004d382e7f959f3c80771d850ce232" kindref="member">object</ref>(std::string<sp/>name,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>ptrSign<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject_1ad355b4f9ce688d52c42ef2033297e20f" kindref="member">objName</ref>(name)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject_1a4152b0ef53f4aa48124d39861a3c5429" kindref="member">copy_sigatures</ref>(ptrSign);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="structobject_1a6c9de1a97fcd7d62820399aa4fb0213a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structobject_1a6c9de1a97fcd7d62820399aa4fb0213a" kindref="member">object</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">&amp;<sp/>rObj)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="structobject_1ad355b4f9ce688d52c42ef2033297e20f" kindref="member">objName</ref>(rObj.<ref refid="structobject_1ad355b4f9ce688d52c42ef2033297e20f" kindref="member">objName</ref>)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject_1a4152b0ef53f4aa48124d39861a3c5429" kindref="member">copy_sigatures</ref>(rObj.<ref refid="structobject_1a5207b56ec43664ad2728666b46ca6272" kindref="member">sigature</ref>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="_source_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_source_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Инициализация списка объектов поиска <sp/><sp/>object<sp/>ArrayObject[]<sp/>=<sp/>
+<sp/><sp/><sp/><sp/>{
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Холодильник&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Микровалновая печь"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Пылесос"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Утюг"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Ноутбук"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Стационарный<sp/>компьютер"),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Сервер&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Суперкомпьютер"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смартфон"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Планшет"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Рация"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смарт<sp/>часы&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Амерметр&quot;),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Вакуумметр"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Осциограф"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Мультиметр"),
+<sp/><sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>signature_map[object::COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+<sp/><sp/><sp/><sp/>
+
+
+<sp/>
+<sp/><sp/><sp/>return<sp/>0;
+
+}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>ArrayObject[]<sp/>=<sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Холодильник&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Микровалновая печь ),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Пылесос"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Утюг"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Ноутбук"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Стационарный<sp/>компьютер"),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Сервер&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Суперкомпьютер"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смартфон"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Планшет"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Рация"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смарт<sp/>часы&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Амерметр&quot;),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Вакуумметр"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Осциограф"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Мультиметр"),
+<sp/><sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>signature_map[object::COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+<sp/><sp/><sp/><sp/>
+
+
+<sp/>
+<sp/><sp/><sp/>return<sp/>0;
+
+}&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Пылесос ),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Утюг"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Ноутбук"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Стационарный<sp/>компьютер"),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Сервер&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Суперкомпьютер"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смартфон"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Планшет"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Рация"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смарт<sp/>часы&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Амерметр&quot;),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Вакуумметр"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Осциограф"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Мультиметр"),
+<sp/><sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>signature_map[object::COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+<sp/><sp/><sp/><sp/>
+
+
+<sp/>
+<sp/><sp/><sp/>return<sp/>0;
+
+}&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Утюг ),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Ноутбук"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Стационарный<sp/>компьютер"),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Сервер&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Суперкомпьютер"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смартфон"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Планшет"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Рация"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смарт<sp/>часы&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Амерметр&quot;),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Вакуумметр"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Осциограф"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Мультиметр"),
+<sp/><sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>signature_map[object::COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+<sp/><sp/><sp/><sp/>
+
+
+<sp/>
+<sp/><sp/><sp/>return<sp/>0;
+
+}&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Ноутбук ),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Стационарный<sp/>компьютер"),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Сервер&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Суперкомпьютер"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смартфон"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Планшет"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Рация"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смарт<sp/>часы&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Амерметр&quot;),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Вакуумметр"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Осциограф"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Мультиметр"),
+<sp/><sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>signature_map[object::COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+<sp/><sp/><sp/><sp/>
+
+
+<sp/>
+<sp/><sp/><sp/>return<sp/>0;
+
+}&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Стационарный<sp/>компьютер ),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Сервер&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Суперкомпьютер"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смартфон"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Планшет"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Рация"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смарт<sp/>часы&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Амерметр&quot;),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Вакуумметр"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Осциограф"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Мультиметр"),
+<sp/><sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>signature_map[object::COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+<sp/><sp/><sp/><sp/>
+
+
+<sp/>
+<sp/><sp/><sp/>return<sp/>0;
+
+}&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Сервер&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Суперкомпьютер ),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смартфон"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Планшет"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Рация"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смарт<sp/>часы&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Амерметр&quot;),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Вакуумметр"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Осциограф"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Мультиметр"),
+<sp/><sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>signature_map[object::COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+<sp/><sp/><sp/><sp/>
+
+
+<sp/>
+<sp/><sp/><sp/>return<sp/>0;
+
+}&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Смартфон ),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Планшет"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Рация"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смарт<sp/>часы&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Амерметр&quot;),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Вакуумметр"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Осциограф"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Мультиметр"),
+<sp/><sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>signature_map[object::COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+<sp/><sp/><sp/><sp/>
+
+
+<sp/>
+<sp/><sp/><sp/>return<sp/>0;
+
+}&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Планшет ),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Рация"),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смарт<sp/>часы&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Амерметр&quot;),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Вакуумметр"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Осциограф"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Мультиметр"),
+<sp/><sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>signature_map[object::COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+<sp/><sp/><sp/><sp/>
+
+
+<sp/>
+<sp/><sp/><sp/>return<sp/>0;
+
+}&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Рация ),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Смарт<sp/>часы&quot;),
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Амерметр&quot;),
+<sp/><sp/><sp/><sp/><sp/>object(&quot;Вакуумметр"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Осциограф"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Мультиметр"),
+<sp/><sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>signature_map[object::COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+<sp/><sp/><sp/><sp/>
+
+
+<sp/>
+<sp/><sp/><sp/>return<sp/>0;
+
+}&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Смарт<sp/>часы&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Амерметр&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Вакуумметр ),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Осциограф"),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Мультиметр"),
+<sp/><sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>signature_map[object::COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+<sp/><sp/><sp/><sp/>
+
+
+<sp/>
+<sp/><sp/><sp/>return<sp/>0;
+
+}&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Осциограф ),
+<sp/><sp/><sp/><sp/><sp/><sp/>object(&quot;Мультиметр"),
+<sp/><sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>signature_map[object::COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+<sp/><sp/><sp/><sp/>
+
+
+<sp/>
+<sp/><sp/><sp/>return<sp/>0;
+
+}&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structobject" kindref="compound">object</ref>(</highlight><highlight class="stringliteral">&quot;Мультиметр ),
+<sp/><sp/>};
+
+<sp/><sp/><sp/><sp/>bool<sp/>signature_map[object::COUNT_BITS]<sp/>=<sp/>{<sp/>0<sp/>};
+<sp/><sp/><sp/><sp/>
+
+
+<sp/>
+<sp/><sp/><sp/>return<sp/>0;
+
+}&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>signature_map[<ref refid="structobject_1a9eb0e13956c17aeaaca90adf04c532b9" kindref="member">object::COUNT_BITS</ref>]<sp/>=<sp/>{<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/User/source/repos/Guessing game/Guessing game/Source.cpp"/>
+  </compounddef>
+</doxygen>

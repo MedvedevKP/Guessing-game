@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_0a614b0ffa64a45257066448ed4ecd9e" kind="dir">
+    <compoundname>C:/Users/User/source/repos/Guessing game</compoundname>
+    <innerdir refid="dir_d48f62f96ea62ea9079751718d699dd8">C:/Users/User/source/repos/Guessing game/Guessing game</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/User/source/repos/Guessing game/"/>
+  </compounddef>
+</doxygen>
